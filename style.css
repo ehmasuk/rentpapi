@@ -1,0 +1,124 @@
+body{
+    max-width: 1100px;
+    margin: auto;
+}
+.container{
+    max-width: 97%;
+}
+/* nav-section */
+nav{
+    padding: 15px 0;
+}
+.logo{
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+/* hero-section */
+.hero-section{
+    padding: 30px 0;
+}
+.nav-with-hero{
+    background:url(img/Header-banner-Ready-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hero-title{
+    font-size: 38px;
+    color: #FFFDFA;
+    font-weight: 700;
+    margin-top: 3vw;
+}
+.hero-des{
+    color: #C5C5C9;
+    font-weight: 700;
+}
+.hero-row-wraper{
+    min-height: 70vh;
+}
+/* about-section */
+.about-section{
+    color: #fff;
+    background-color: #000000;
+    padding: 10px 0;
+}
+.numerica{
+    font-size: 50px;
+}
+.about-des{
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+}
+.about-section ol li{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+/* media query */
+
+/* 1024px */
+@media only screen and (max-width:995px) {
+    .hero-title{
+        font-size: 30px;
+    }
+    .logo {
+        max-width: 130px;
+    }
+    .hero-row-wraper{
+        min-height: auto;
+    }
+
+}
+
+
+/* 960px */
+@media only screen and (max-width:768px) {
+    .hero-title{
+        font-size: 25px;
+    }
+    .logo {
+        max-width: 150px;
+    }
+    .hero-section {
+        padding: 30px 0;
+    }
+}
+
+
+/* 600px */
+@media only screen and (max-width:540px) {
+    .hero-title{
+        font-size: 20px;
+    }
+    .logo {
+        max-width: 130px;
+    }
+    .hero-des,.about-section ol li,.about-des {
+        font-size: 14px;
+    }
+    .numerica {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:450px) {
+    .hero-title{
+        font-size: 16px;
+    }
+    .logo {
+        max-width: 110px;
+    }
+    .hero-section {
+        padding: 20px 0;
+    }
+    .hero-des,.about-section ol li,.about-des {
+        font-size: 10px;
+    }
+    .numerica {
+        font-size: 30px;
+    }
+
+}
